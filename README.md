@@ -1,2 +1,63 @@
 # Support-Vector-Machine
-SVM有三宝，间隔、对偶、核技巧......
+SVM有三宝，间隔、对偶、核技巧  
+定义：在特征空间上的间隔最大的线性分类器，即求解能够正确划分训练数据集并且几何间隔最大的分离超平面。
+区别于感知机：对于线性可分的数据集来说，感知机划分的超平面有无穷多个，但是几何间隔最大的分离超平面却是唯一的
+
+
+  A prototype system for semantic segmentation of Satellite Images. In the Window's operating system, the size of the executable file is 700MB, model parameters are 40MB, and the computation cost is 266 in GFLOPS.
+  
+## Introduction
+  The system realizes the segmentation of high-resolution satellite images, which includes seven categories, namely Urban land, Agricultural land, Pasture land, Forest, Rivers and lakes, Wasteland, Unknown(cloud, fog). The back-end CNNs model adopts the more advanced DeepLabv3 plus structure. In the model, the prediction is the same size as the input. Therefore, the compression of the input image will affect the prediction accuracy to a certain extent, but considering the model parameters and computation cost, we finally resize to 1000\*1000 from 2448\*2448 before prediction. We package the back-end model into an executable file. And in front-end, we temporarily use QT to design the interface for simple interaction.
+
+## Visualization
+![image](https://github.com/zhenshen-mla/Satellite-Image-Segmentation/blob/master/examples/example.jpg)
+
+## Files
+  * `/data/train.txt & val.txt`: index of train samples and test samples;
+  * `/examples/`: examples of train sample, ground truth and prediction;   
+  * `/preprocessing/rgb2anno.py`: three-channel label converted to a single channel;   
+  * `/utils/loss.py`: loss function for CNNs model;   
+  * `/utils/lr_scheduler.py`: learning rate scheduler;
+  * `/utils/metrics.py`: evaluation criteria of semantic segmentation;   
+  * `/segmentation_model.py`: DeepLabv3 plus structure;
+  * `/train_seg.py & test_seg.py`: model testing and training;
+  * `/interaction.py`: the front-end interface;
+  
+## Requirements  
+
+  Python >= 3.0  
+  PyTorch >= 1.0  
+  numpy  
+  torchvision  
+  tensorboardX  
+  PyQt5  
+  PyInstaller  
+  
+
+## Installation
+  1. Clone the repo:   
+    ```
+    git clone https://github.com/zhenshen-mla/Satellite-Image-Segmentation.git   
+    ```   
+    ```
+    cd Satellite-Image-Segmentation   
+    ```
+  2. For custom dependencies:   
+    ```
+    pip install tensorboardX matplotlib PyQt5 PyInstaller   
+    ```
+
+## Running
+  1. Model training:   
+    ```
+    python train_seg.py   
+    ```   
+  2. Model testing:   
+    ```
+    python test_seg.py   
+    ```
+  3. Package model and front-end interaction:   
+    ```
+    pyinstaller -F interaction.py   
+    ```
+
