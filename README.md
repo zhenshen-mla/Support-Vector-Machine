@@ -6,7 +6,7 @@ SVM有三宝，间隔、对偶、核技巧
 ## 推导  
 
 ## Visualization
-![image](https://github.com/zhenshen-mla/Satellite-Image-Segmentation/blob/master/examples/example.jpg)
+ <div align=center><img src="https://github.com/zhenshen-mla/Support-Vector-Machine/blob/master/examples/1.jpg"/></div>  
 
 ## Files
   * `/data/train.txt & val.txt`: index of train samples and test samples;
