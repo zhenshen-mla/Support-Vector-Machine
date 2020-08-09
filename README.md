@@ -6,7 +6,7 @@ SVM有三宝，间隔、对偶、核技巧
 ## 推导  
 
 ## Visualization
- <div align=left><img width="450" height="600" src="https://github.com/zhenshen-mla/Support-Vector-Machine/blob/master/examples/1.jpg"/></div>  
+ <div align=left><img width="500" height="600" src="https://github.com/zhenshen-mla/Support-Vector-Machine/blob/master/examples/1.jpg"/></div>  
  <div align=center><img src="https://github.com/zhenshen-mla/Support-Vector-Machine/blob/master/examples/1.jpg"/></div>  
 
 ## Files
