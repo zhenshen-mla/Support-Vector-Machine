@@ -6,10 +6,10 @@ SVM有三宝，间隔、对偶、核技巧
 ## 推导  
  <div align=left><img width="600" height="700" src="https://github.com/zhenshen-mla/Support-Vector-Machine/blob/master/examples/1.jpg"/></div>  
  <div align=left><img width="600" height="700" src="https://github.com/zhenshen-mla/Support-Vector-Machine/blob/master/examples/2.jpg"/></div>  
- <div align=left><img width="500" height="600" src="https://github.com/zhenshen-mla/Support-Vector-Machine/blob/master/examples/3.jpg"/></div>  
- <div align=left><img width="500" height="600" src="https://github.com/zhenshen-mla/Support-Vector-Machine/blob/master/examples/4.jpg"/></div>  
- <div align=left><img width="500" height="600" src="https://github.com/zhenshen-mla/Support-Vector-Machine/blob/master/examples/5.jpg"/></div>  
- <div align=left><img width="500" height="600" src="https://github.com/zhenshen-mla/Support-Vector-Machine/blob/master/examples/6.jpg"/></div>  
+ <div align=left><img width="600" height="700" src="https://github.com/zhenshen-mla/Support-Vector-Machine/blob/master/examples/3.jpg"/></div>  
+ <div align=left><img width="600" height="700" src="https://github.com/zhenshen-mla/Support-Vector-Machine/blob/master/examples/4.jpg"/></div>  
+ <div align=left><img width="600" height="700" src="https://github.com/zhenshen-mla/Support-Vector-Machine/blob/master/examples/5.jpg"/></div>  
+ <div align=left><img width="600" height="700" src="https://github.com/zhenshen-mla/Support-Vector-Machine/blob/master/examples/6.jpg"/></div>  
 
 ## Files
   * `/data/train.txt & val.txt`: index of train samples and test samples;
