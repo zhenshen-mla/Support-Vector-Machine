@@ -4,7 +4,6 @@ SVM有三宝，间隔、对偶、核技巧
 区别于感知机：对于线性可分的数据集来说，感知机划分的超平面有无穷多个，但是几何间隔最大的分离超平面却是唯一的
   
 ## 推导  
-### 假设  
 
 ## Visualization
 ![image](https://github.com/zhenshen-mla/Satellite-Image-Segmentation/blob/master/examples/example.jpg)
