@@ -12,4 +12,4 @@ SVM有三宝，间隔、对偶、核技巧
 
   
 ## 推导  
- <div align=left><img width="1000" height="1700" src="https://github.com/zhenshen-mla/Support-Vector-Machine/blob/master/examples/total.png"/></div>  
+ <div align=left><img width="1000" height="1700" src="https://github.com/zhenshen-mla/Support-Vector-Machine/blob/master/examples/linear regression.jpg"/></div>  
